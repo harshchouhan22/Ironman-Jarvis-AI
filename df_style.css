@@ -1,0 +1,77 @@
+/*  This is a custom Cascading Style Sheets(CSS) that used to format a
+pandas dataframe that is being exported to a HTML file.
+*/
+
+
+.mystyle {
+    font-size: 12pt;
+    font-family: Arial;
+    border-collapse: collapse;
+    border: 4px solid silver;
+    width: 100%;
+
+}
+
+.mystyle th {
+    color: white;
+    background: black;
+    text-align:left;
+    vertical-align:center;
+    padding: 5px;
+    white-space: nowrap;
+
+}
+
+.mystyle td {
+	text-align:left;
+	vertical-align:top;
+    padding: 5px;
+
+}
+
+/* link color
+https://www.colorhexa.com/0076dc
+*/
+.mystyle a {color:#0076dc}
+
+
+/* hover link color
+https://www.colorhexa.com/0076dc
+*/
+.mystyle a:hover {color:#dc6600}
+
+
+/* expand column width for author name using nowrap */
+.mystyle td:nth-child(3) {
+    text-align:left;
+	vertical-align:top;
+    padding: 5px;
+    white-space: nowrap;
+
+}
+
+/* on-hover for main image column
+https://www.colorhexa.com/0076dc
+*/
+.mystyle td:nth-child(7) a:hover {
+	box-shadow: 5px 5px 2.5px #dc6600;
+	-moz-box-shadow: 0px 10px 5px #dc6600;
+	-webkit-box-shadow: 0px 10px 5px #dc6600;
+
+}
+
+/* alternating row color
+https://www.colorhexa.com/f0f8ff
+*/
+.mystyle tr:nth-child(even) {
+    background: #f0f8ff;
+}
+
+/* on-hover color
+https://www.colorhexa.com/d7ecff
+*/
+.mystyle tr:hover {
+    background: #d7ecff;
+    cursor: pointer;
+
+}

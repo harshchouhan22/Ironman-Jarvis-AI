@@ -1,0 +1,22 @@
+{
+
+  "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["hello jarvis","hii", "hey","jarvis","are you there"
+        ],
+        "responses": ["Hello Sir","Yes Sir", "How Are You Sir.", "Always There For You Sir", "Hello"
+        ]
+      },
+      {
+        "tag": "breakup",
+        "patterns": ["bye","goodbye", "see you later","sleep"
+        ],
+        "responses": ["Bye Sir ", "See You Later Sir", "Just Say Wake Up i will always be there for you"
+        ]
+
+      }
+
+      
+  ]
+}
