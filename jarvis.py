@@ -301,25 +301,19 @@ if __name__ == "__main__":
             speak('love you too Sir')
 #My Details
         elif 'pan card' in query:
-            print('CJEPC8955K')
-            speak('CJEPC8955k')
+            print('d')
+            speak('d')
 
         elif 'atm' in query:
-            print('Card number=6080 4366 9900 4723'
-                  'valid from=02/19  valid upto=02/26'
-                  'rupay card'
-                  'cvv=668')
-            speak('Sir Your ATM Card Number is 6080 4366 9900 4723')
+            print('Card number')
+            speak('Sir Your ATM Card Number is ')
 
         elif 'CVV' in query:
             speak('668')
 
         elif 'Aadhar' in query:
-            speak('5510 8384 7005'
-                  'date of birth 16/07/2003')
-            print('5510 8384 7005'
-                  'date of birth 16/07/2003'
-                  'Address Gram babai, babai, raisen, Madhaya Pradesh - 464665')
+            speak('Aadhar')
+
 
 
 #windows desktop shortcuts
